@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEE;
+    font-family: 'Roboto', 'sans-serif';
+}
+.container{
+    max-width: 1500px;
+    background-color:#2B3743;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.pi{
+    width: 100px;
+    height:120px; 
+    border:3px dashed rgb(66, 5, 5);
+    border-radius: 50%; 
+    float:left;
+}
+.header_bio{
+        float:left;
+        padding: 30px;
+        padding-left: 50px;
+}
+h1,h2,h3,h4,h5,h6{
+    color:rgb(255, 255, 255);
+}
+.header_contact{
+    float:right;
+    padding:30px;
+    
+}
+.header_contact p a{
+    color:rgb(218, 218, 218);
+    text-decoration: none;
+    font-weight: bolder;
+}
+.header_contact p a:hover{
+    text-decoration: underline;
+    color:rgb(90, 92, 204); 
+}
+.div_clear{
+    clear:both;
+}
+hr{
+    border:3px solid rgb(252, 252, 252);
+    margin:35px auto;
+    width:100%;
+    border-bottom: none;
+}
+.header1{
+    float:left;
+    padding:10px;
+}
+.header2{
+    width:70%;
+    float:right;
+    padding:10px;
+    color:white;
+}
+.hr1{
+    border:0.5px solid white;
+}
+li{
+    list-style-type: square;
+}
+
+.education_div{
+            width:70%;
+            float:right;
+            color:white;
+}
+.education_div1{
+            width:50%;
+            float:left;
+            padding-top: 10px;
+}
+.education_div2{
+            width:50%;
+            float:left;
+            padding-top: 10px;
+            
+}
+.awards{
+    max-width: 100%;
+    color:white;
+    
+    padding-left: 10px;
+}
+.awards1{
+    padding-top: 40px;
+    color:white;
+    width:70%;
+    float:right;
+}
+.fotter{
+    color:white;
+    padding-top: 40px;
+    background-color: black;
+    padding-left: 10px;
+    
+
+}
+
+.fotter ul li {
+    list-style-type: none;
+    float:left;
+    margin-left: 300px;
+    
+}
+.fotter ul li a{
+    color:white;
+    font-size: 24px;
+    text-decoration: none;
+}
+.fotter ul li a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+.copyright{
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
